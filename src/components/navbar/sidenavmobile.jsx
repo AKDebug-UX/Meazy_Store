@@ -35,22 +35,22 @@ const SideNavMobile = ({ setSideNav }) => {
 
       <div className="flex flex-col items-center justify-center gap-6">
         <a
-          href="#"
+          href="tel:+2347089624520"
           className="text-base px-4 py-2 shadow-4 bg-white border rounded-full font-medium text-gray-900 hover:text-white hover:bg-gray-900"
         >
-          +234 987 654 3210
+          +2347089624520
         </a>
         <div className="flex items-center justify-center gap-3">
-          <a href="mail:meazybraintech@gmail.com">
+          <a href="mail:meazybraintech@gmail.com" className="font-bold text-[20px]">
             <ion-icon name="mail-outline"></ion-icon>
           </a>
-          <a>
+          <a className="font-bold text-[20px]">
             <ion-icon name="logo-linkedin"></ion-icon>
           </a>
-          <a>
+          <a className="font-bold text-[20px]">
             <ion-icon name="logo-instagram"></ion-icon>
           </a>
-          <a>
+          <a className="font-bold text-[20px]">
             <ion-icon name="logo-tiktok"></ion-icon>
           </a>
         </div>

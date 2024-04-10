@@ -14,27 +14,49 @@ function Redefine() {
       <div className="flex-1">
         <div className="mx-auto text-left">
           <h1 className="md:text-5xl text-4xl leading-normal text-[red] font-bold">
-            we redefine the real estate experience
+            About Me
           </h1>
           <div className="lg:text-lg text-md leading-normal mt-4 font-normal text-black">
-            Whether you’re seeking a home, a strategic investment, or a
-            commercial space to propel your business, Geniz Properties is your
-            trusted partner in turning visions into reality.
+            We specialize in the innovative creation and expert design of
+            dynamic websites and cutting-edge applications. Our software company
+            is dedicated to delivering tailored solutions that meet the unique
+            needs of our clients, ensuring top-notch performance and user
+            satisfaction.
           </div>
           <div className="flex">
             <div>
               <h1 className="text-2xl pt-6 text-[red]">CORE VALUES</h1>
-              <p className="pt-3">G - Genuinity</p>
-              <p className="pt-2">E - Efficiency</p>
-              <p className="pt-2">N - Nexus</p>
-              <p className="pt-2">I - Integrity</p>
-              <p className="pt-2">Z - Zeal</p>
-            </div>
-            <div className="flex-1 flex lg:hidden mt-6 flex justify-center items-center">
-              <img
-                className="w-[90%] h-[14em] relative rounded-md"
-                src={architecture}
-              />
+              <p className="pt-3">
+                <b>Innovation</b>: We embrace creativity and strive to pioneer new
+                ideas and technologies in web and application development.
+              </p>
+              <p className="pt-2">
+                <b>Excellence</b>: We are committed to delivering high-quality
+                products and services, consistently exceeding expectations and
+                industry standards.{" "}
+              </p>
+              <p className="pt-2">
+                <b>Collaboration</b>: We believe in the power of teamwork and
+                foster an environment where collaboration and communication
+                thrive, both internally and with our clients.{" "}
+              </p>
+              <p className="pt-2">
+                <b>Integrity</b>: We conduct ourselves with honesty,
+                transparency, and integrity in all our interactions, building
+                trust and credibility with our stakeholders.{" "}
+              </p>
+              <p className="pt-2">
+                <b>Customer-Centricity</b>: We prioritize the needs and
+                satisfaction of our clients, dedicating ourselves to
+                understanding their goals and delivering solutions that exceed
+                their expectations.{" "}
+              </p>
+              <p className="pt-2">
+                <b>Continuous Improvement</b>: We are dedicated to continuous
+                learning and growth, constantly seeking ways to enhance our
+                skills, processes, and products for the benefit of our clients
+                and our company.
+              </p>
             </div>
           </div>
         </div>

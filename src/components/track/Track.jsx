@@ -40,9 +40,12 @@ function Track() {
                 Our Vision
               </h2>
               <p className="leading-relaxed">
-                our vision is to be a pioneering force in shaping vibrant and
-                sustainable communities. We aspire to redefine the real estate
-                landscape
+                Our vision is to revolutionize the digital landscape by crafting
+                exceptional web experiences and innovative applications that
+                redefine industry standards. Through our commitment to
+                creativity, quality, and user-centric design, we aim to empower
+                businesses and individuals to thrive in the ever-evolving
+                digital world.
               </p>
             </div>
           </div>
@@ -76,9 +79,12 @@ function Track() {
               Our Mission
             </h2>
             <p className="leading-relaxed">
-              Our mission is to design and develop spaces that blend
-              functionality with aesthetics, fostering a sense of belonging and
-              well-being.
+              Our mission is to revolutionize the digital landscape by crafting
+              exceptional web and application solutions that empower businesses
+              to thrive in the ever-evolving technological ecosystem. We are
+              committed to pushing the boundaries of creativity and innovation,
+              delivering superior products that exceed expectations and drive
+              success for our clients.
             </p>
           </div>
         </div>
