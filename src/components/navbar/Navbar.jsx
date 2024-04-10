@@ -40,17 +40,17 @@ function Navbar() {
               leaveTo="-translate-x-full"
             >
               <Dialog.Panel className="relative flex w-full max-w-xs flex-col overflow-y-auto bg-white pb-12 shadow-xl">
-                <div className="flex px-4 pb-2 pt-28">
+                <div className="flex px-4 pb-2 pt-20">
                   <button
                     type="button"
-                    className="-m-2 inline-flex items-center justify-center rounded-md p-2 text-gray-400"
+                    className="flex -m-2 inline-flex items-end justify-end text-left text-[22px] rounded-md p-2 text-gray-400"
                     onClick={() => setOpen(false)}
                   >
                     <span className="sr-only">Close menu</span>
                     <RxCross2 />
                   </button>
                 </div>
-                <div className="border-t border-gray-200 px-4 py-6">
+                <div className="border-t border-gray-200 py-6">
                   <a href="#" className="-m-2 flex items-center p-2">
                     <img
                       src="img/indiaflag.png"
@@ -78,7 +78,7 @@ function Navbar() {
                 <Link to={"/"} className="flex">
                   <div className="flex ">
                     <h1 className=" text-2xl font-bold text-black  px-2 py-1 rounded">
-                      E-Unknown
+                      MeazyBraintech
                     </h1>
                   </div>
                 </Link>
@@ -137,22 +137,22 @@ function Navbar() {
 
               <div className="ml-auto hidden lg:flex items-center justify-center gap-3">
                 <a
-                  href="#"
+                  href="tel:+2347089624520"
                   className="text-base px-4 py-2 shadow-4 bg-white border rounded-full font-medium text-gray-900 hover:text-white hover:bg-gray-900"
                 >
-                  +234 987 654 3210
+                  +2347089624520
                 </a>
-                <div className="flex items-center justify-center gap-3">
-                  <a>
-                    <ion-icon name="logo-facebook"></ion-icon>
+                <div className="flex items-center justify-center gap-5">
+                  <a href="mail:meazybraintech@gmail.com" className="font-bold text-[20px]">
+                    <ion-icon name="mail-outline"></ion-icon>
                   </a>
-                  <a>
+                  <a className="font-bold text-[20px]">
                     <ion-icon name="logo-linkedin"></ion-icon>
                   </a>
-                  <a>
+                  <a className="font-bold text-[20px]">
                     <ion-icon name="logo-instagram"></ion-icon>
                   </a>
-                  <a>
+                  <a className="font-bold text-[20px]">
                     <ion-icon name="logo-tiktok"></ion-icon>
                   </a>
                 </div>

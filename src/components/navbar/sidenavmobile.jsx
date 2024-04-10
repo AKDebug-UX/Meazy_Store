@@ -41,8 +41,8 @@ const SideNavMobile = ({ setSideNav }) => {
           +234 987 654 3210
         </a>
         <div className="flex items-center justify-center gap-3">
-          <a>
-            <ion-icon name="logo-facebook"></ion-icon>
+          <a href="mail:meazybraintech@gmail.com">
+            <ion-icon name="mail-outline"></ion-icon>
           </a>
           <a>
             <ion-icon name="logo-linkedin"></ion-icon>
